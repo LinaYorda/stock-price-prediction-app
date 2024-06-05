@@ -7,4 +7,6 @@ newsapi-python
 python-dotenv
 numpy
 matplotlib
+plotly
+
 
