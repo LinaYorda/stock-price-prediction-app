@@ -8,5 +8,5 @@ python-dotenv
 numpy
 matplotlib
 plotly
-
+textblob
 
