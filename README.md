@@ -2,10 +2,10 @@
 
 
 
-This Streamlit app predicts stock prices using historical data and displays relevant financial news and metrics. It leverages the [Yahoo Finance](https://finance.yahoo.com/) API for historical stock data, [Prophet](https://facebook.github.io/prophet/docs/quick_start.html) for forecasting, [Finnhub](https://finnhub.io/) for financial metrics, and [NewsAPI](https://newsapi.org/) for news articles.
+This Streamlit app predicts stock prices using historical data and displays relevant financial news and metrics. It leverages the [Yahoo Finance](https://finance.yahoo.com/) API for historical stock data, [Prophet](https://facebook.github.io/prophet/docs/quick_start.html) for forecasting, [Finnhub](https://finnhub.io/) for financial metrics, and [NewsAPI](https://newsapi.org/) for news articles.Please, keep in mind the daily news API limits. 
 
 #### Live Demo
-You can see a live demo of the application [here](https://linayorda-stock-price-prediction-app-main-vyy79k.streamlit.app/).
+You can see a live demo of the application [here](https://stock-market-prediction-app.streamlit.app).
 
 ## Features
 
@@ -13,6 +13,8 @@ You can see a live demo of the application [here](https://linayorda-stock-price-
 - **Stock Price Prediction**: Uses the Prophet library to predict future stock prices based on historical data.
 - **Financial Metrics**: Fetches and displays financial metrics using the Finnhub API.
 - **Latest News**: Fetches and displays the latest news articles related to the selected stock.
+- **Sentiment Analysis on Stock Articles**: Uses TextBlob library and NewsApiClient to display the sentiment of the first 20 articles for the choosen ticker.
+- **Technical Analysis**: Utilizing the power of Ploty library, to display a different technical indicators for a particular stock - SMA(Simple Moving Average), RSI(Relative Strength Index), MACD(Moving Average Convergence-Divergence), Upper and Lower Band. 
 
 ## Stock Market Prediction
 
