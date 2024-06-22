@@ -1,14 +1,15 @@
-streamlit==1.22.0
-yfinance==0.2.18
+cython==0.29.34
+numpy==1.23.5
 pandas==1.5.3
 prophet==1.1.1
 finnhub-python==2.4.0
 newsapi-python==0.2.6
 python-dotenv==0.19.1
-numpy==1.23.5
 matplotlib==3.7.1
 plotly==5.14.1
 textblob==0.17.1
 pystan==2.19.1.1
+streamlit==1.22.0
+yfinance==0.2.18
 
 
