@@ -22,7 +22,7 @@ def show_main_page():
     end_date = st.sidebar.date_input("To:", datetime(2021, 12, 31))
 
     st.sidebar.header("Selected Ticker")
-    ticker = st.sidebar.text_input("Enter the ticker:", 'DOW')
+    ticker = st.sidebar.text_input("Enter the ticker:", 'AAPL')
 
     st.sidebar.header("Prediction Years")
     prediction_years = st.sidebar.slider("Years of Prediction:", 1, 10, 1)
